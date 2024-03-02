@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App-content {
+  padding-top: 170px;
+}

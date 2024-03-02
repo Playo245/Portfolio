@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="card row justify-content-center mx-auto col-10 col-md-8 col-lg-4">
+            <h5 class="display-5">Enter your details here:</h5>
+            <form action="" method="POST" class="form-example">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.as_table }}
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                        Add
+                    </button>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

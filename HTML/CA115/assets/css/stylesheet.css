@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins&display=swap');
+
+/* global */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+/* NavBar Section */
+
+.navBar{
+  width: 85%;
+  margin: auto;
+}
+header{
+  background: #f09898;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  max-width: 225px;
+  max-height: 225px;
+  float: left;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.navbar a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in 220ms;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/* Content Divs */
+.content {
+  width: 100%;
+  max-width: 850px;
+  padding: 2em;
+  padding-bottom: 6rem;
+  margin: 0 auto; /* Margin information extracted from https://stackoverflow.com/a/15385425/10434474 */
+  box-sizing: border-box; /* the weird content scaling should be fixed now */
+
+}
+
+/* -------- CONTENT SECTIONS -------- */
+.content-section {
+  width: 100%;
+  display: flex;
+  padding: 2em 0;
+}
+
+/* BEGIN section video */
+.section-video {
+  width: 100%;
+  flex-direction: column;
+}
+
+.section-video h2 {
+  margin: 1em 0;
+}
+
+.video-item {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.video-item iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* END section video */
+
+/* BEGIN section callout */
+.section-callout {
+  padding: 2em 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-callout h1 {
+  color: #4C5B5C;
+  font-size: 3em;
+  font-weight: bolder;
+  border-bottom: 3px solid #DB5461;
+  width: max-content;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+
+
+.section-callout p {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+/* END section callout */
+
+/* BEGIN Responsive text and image content */
+.section-item {
+  width: 50%;
+  margin: 0 1em;
+}
+
+.section-item h2 {
+  text-align: left;
+  margin-bottom: 1em;
+  border-left: 5px solid #f09898;
+  padding-left: 7px;
+  
+}
+
+.section-item p {
+  text-align: justify; /* do not remove this */
+}
+
+.section-item img {
+  height: 35vh;
+  width: 100%;
+  object-fit: cover; /* Object fit extracted from https://stackoverflow.com/a/29103071/10434474 */
+  border-radius: 7px;
+}
+
+.text-left {
+  flex-direction: row-reverse;
+}
+
+.text-right {
+  flex-direction: row;
+}
+
+@media (max-width: 800px) { /* media extracted from src="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" */
+  .section-item {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .text-left {
+    flex-direction: column-reverse; /* column reverse for mobile view puts text first, followed by the image */
+  }
+
+  .text-right {
+    flex-direction: column-reverse; /* column reverse for mobile view puts text first, followed by the image */
+  }
+
+  .section-item img {
+    height: 100%;
+  }
+}
+
+/* END Responsive text and image content */
+
+/* BEGEN homepage */
+
+.homepage {
+  width: 100%;
+  top: 40%;
+  position: absolute;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+}
+
+.homepage h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.homepage p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #f09898;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+span {
+  background: #f09898;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  text-decoration: none;
+  transition: all ease-in 250ms;
+}
+
+button:hover span { 
+  width: 100%
+}
+
+button:hover {
+  border: none;
+}

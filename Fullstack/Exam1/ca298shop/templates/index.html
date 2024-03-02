@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+<title>Whatever</title>
+{% block content %}
+
+<div class="mx-auto">
+  {% for b in clothes %}
+  <br>
+  <div class="col-sm-7">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ b.name }} </h5>
+        <p class="card-subtitle mb-2">Type: {{ b.type }}.</p>
+        <div class="text-truncate">Size: {{b.size}}</div>
+        <br>
+        <p class="card-subtitle text-muted"> Price: {{b.price}}</p>
+        <br>
+        <a href="/cloth/{{b.id}}" class="btn btn-dark">More info</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

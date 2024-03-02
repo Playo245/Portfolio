@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card row justify-content-center mx-auto col-10 col-md-8 col-lg-4 col-12 col-md-8 col-lg-6">
+                <h5 class="display-5 text-center">Thank you for ordering from Dans Pizzeria!</h5>
+                <br>
+
+                <!-- Summary of Order -->
+                <h4>Pizza summary</h4>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-light">{{ pizza.size }}</li>
+                    <li class="list-group-item list-group-item-light">{{ pizza.crust }}</li>
+                    <li class="list-group-item list-group-item-light">{{ pizza.sauce }}</li>
+                    <li class="list-group-item list-group-item-light">{{ pizza.cheese }}</li>
+                </ul>
+
+                <br>
+
+                <!-- Summary of Details, just have summary of name and address, don't add the credit card details -->
+                <h4>Details summary</h4>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-light">{{ customer.first_name }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.last_name }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.address1 }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.address2 }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.city }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.county }}</li>
+                    <li class="list-group-item list-group-item-light">{{ customer.eircode }}</li>
+                </ul>
+
+                <br>
+
+                <div class="text-center">
+                    <a href="/createpizza" class="btn btn-lg btn-primary">Create Another Pizza</a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

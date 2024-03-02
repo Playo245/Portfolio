@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>Whatever</title>
+{% endblock %}
+
+{% block content %}
+<!-- content specific to this page goes here -->
+<br>
+<div class="container mx-auto">
+    <h1>{{clothes.name}}</h1>
+    <p class="lead">{{clothes.description}}</p>
+    <p>Size: {{clothes.size}}</p>
+    <p>Pick you colour: {{clothes.colour}}.</p>
+    <p>You may purchase it for €{{clothes.price}} from us.</p>
+    <div class="my-7">
+        <a href="/" class="btn btn-success">All Clothes</a>
+        <a href="/size" class="btn btn-success">In this size</a>
+    </div>
+</div>
+{% endblock %}
