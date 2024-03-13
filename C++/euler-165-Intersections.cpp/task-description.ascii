@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 165
+
+****
+Euler problem 165: https://projecteuler.net/problem=165[].
+****
+
+// //////////////////////////////////////////////////////////////
+== C++
+
+.Task
+****
+we're given 5000 line segments, specified by 5000 sets {x1,y1,x2,y2} such that all those coords are pseudorandom whole numbers between 0 and 499. We need to know how many distinct 'true intersections' they make - true intersections being where two lines cross, not just meet (ie they intersect, and the p.o.i is not an endpoint of either line).
+
+Write a C++ script named `euler-120-square-remainders.go` to calculate How many distinct true intersection points are found among the 
+ line segments?
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ $ g++ -o euler-165-Intersections euler-165-Intersections.cpp
+$ ./euler-165-Intersections 5
+
+----
+
+.Example standard output
+----
+1
+----
+
+.Explanation
+****
+There is 1 distinct true intersection points are found among the 5000 line segments
+****

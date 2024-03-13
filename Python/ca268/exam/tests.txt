@@ -1,0 +1,98 @@
+Tree runtime = O(dp + 1) for depth
+Traversal algorithm requires time O(cp + 1)
+
+Data Structures (python3)
+Stacks
+Collection of objects that are inserted according to LIFO principles (last in is first out)
+Elements can be inserted anytime, but only the most recently inserted object can be
+removed.
+
+class Stack:
+    '''Python implementation the stack'''
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def push(self, item):
+        self.items.append(item)
+    def pop(self):
+        return self.items.pop()
+    def top(self):
+        return self.items[len(self.items) - 1]
+    def size(self):
+        return len(self.items
+
+Queues
+Collection of objects that are inserted and removed according to the FIFO principle.
+(first in is first out).
+Elements can be inserted anytime, but only the one that has been in the queue the
+longest can be removed.
+
+class Queue:
+
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def enqueue(self, item):
+        self.items.insert(0, item)
+    def dequeue(self):
+        return self.items.pop()
+    def size(self):
+        return len(self.items)
+
+Deques (Double-Ended Queues)
+Queue-like data structure that supports insertion and deletion at both front and back of
+the queue.
+
+class Deque:
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def first(self):
+        return self.items[0]
+    def last(self):
+        return self.items[-1]
+    def add_first(self, item):
+        self.items.insert(0, item)
+    def add_last(self, item):
+        self.items.append(item)
+    def delete_first(self):
+        self.items.remove(0)
+    def delete_last(self):
+        self.items.pop()
+    def size(self):
+        return len(self.items)
+
+This implementation of Queues, Stacks and Deqeues relies on the adaptive pattern, i.e
+adapting a built-in data structure (python lists in this case) to the functionalities that we
+need to implement. Python lists are highly optimised, but they come with three
+disadvantages:
+
+1. The length of a list might be longer than the actual number of elements it stores
+2. Amortised bounds may be unacceptable in real-time systems
+3. Insertion and deletion at interior positions are expensive
+
+Linked lists provide a solution to these problems. but there’s always a trade off with
+something else. For example, Elements of a liked list cannot be accessed at a numeric
+index.
+
+-----------------
+
+Singly Linked Lists
+A collection of nodes that form a linear sequence. Each node stores a pointer to an
+object that is an element in the sequence, and a pointer to the next node of the list.
+
+First and last elements are called the head and the tail. We can traverse the linked list
+by starting at the head until we get to the tail. The tail has None as its next reference.
+
+Linked lists do not have a predetermined fixed size. We can insert an element at the
+head by setting it as the new head, and setting its next link to refer to the old head.
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+We can also easily insert elements at the end by replacing the current tail’s next node
+(which is None) to the address of the new tail. We set the new tail’s next node to None

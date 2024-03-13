@@ -1,0 +1,10 @@
+$ go run euler-204-generalised-hamming-numbers.go 5 10000000d
+Invalid input: Please enter a valid limit.
+Error message: strconv.Atoi: parsing "10000000d": invalid syntax
+$ go run euler-204-generalised-hamming-numbers.go 5two 100000000
+Invalid input: Please enter a valid type.
+Error message: strconv.Atoi: parsing "5two": invalid syntax
+$ go run euler-204-generalised-hamming-numbers.go 44
+Usage: go run euler-204-generalised-hamming-numbers.go <type> <limit>
+$ go run euler-204-generalised-hamming-numbers.go
+Usage: go run euler-204-generalised-hamming-numbers.go <type> <limit>

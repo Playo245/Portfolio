@@ -1,0 +1,9 @@
+$ g++ -o euler-109-Darts euler-109-Darts.cpp
+$ ./euler-109-Darts 1
+0
+$ ./euler-109-Darts 10
+78
+$ ./euler-109-Darts 50
+12577
+$ ./euler-109-Darts 100
+38182

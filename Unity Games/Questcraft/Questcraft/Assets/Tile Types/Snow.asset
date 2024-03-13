@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3a2db21ab68c54d97f5036fc142688, type: 3}
+  m_Name: Snow
+  m_EditorClassIdentifier: 
+  itemName: Snow
+  itemIcon:
+  - {fileID: 21300000, guid: 81fd8a789edffd7408cf1ac19a23ad3f, type: 3}
+  isStackable: 1
+  stackSize: 64
+  wallVariant: {fileID: 11400000, guid: 56da9d7cfe636e3418456802fd1d9c7a, type: 2}
+  level: 1
+  inBackground: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  naturallyPlaced: 1

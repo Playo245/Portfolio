@@ -1,0 +1,7 @@
+$ g++ -o euler-86-Cuboid-Route euler-86-Cuboid-Route.cpp
+$ ./euler-86-Cuboid-Route 456
+48
+$ ./euler-86-Cuboid-Route 54two
+Error: Invalid input. Please enter a valid integer.
+$ ./euler-86-Cuboid-Route
+Usage: ./euler-86-Cuboid-Route <value_of_n>

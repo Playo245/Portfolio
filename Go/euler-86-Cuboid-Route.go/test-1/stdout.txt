@@ -1,0 +1,10 @@
+$ go run euler-86-Cuboid-Route.go 456
+48
+$ go run euler-86-Cuboid-Route.go 54two
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "54two": invalid syntax
+$ go run euler-86-Cuboid-Route.go three
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "three": invalid syntax
+$ go run euler-86-Cuboid-Route.go
+Usage: go run euler-86-Cuboid-Route.go <value_of_n>

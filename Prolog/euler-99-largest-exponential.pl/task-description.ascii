@@ -1,0 +1,47 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 99
+
+****
+Euler problem 99: https://projecteuler.net/problem=99[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Prolog
+
+.Task
+****
+Assume there is a text file `numbers.txt` containing pairs of positive integers, each on a new line, representing the base and exponent:
+
+519432,525806
+
+632382,518061
+
+...
+
+The goal is to find the line number of the pair with the greatest numerical value. The line numbering starts from 1.
+
+Write a Prolog script named `euler-99-largest-exponential.pl` which reads the contents of the file and outputs the line number corresponding to the pair with the highest numerical value.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ swipl -s euler-99-largest-exponential.pl -- numbers.txt
+----
+
+.Example standard output
+----
+709
+----
+
+.Explanation
+****
+In the given `numbers.txt`, the pair at line number 709 has the highest numerical value.
+****

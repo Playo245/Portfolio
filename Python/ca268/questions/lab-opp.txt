@@ -1,0 +1,84 @@
+Lab - OOP
+
+Q1. Write a class with the following properties:
+
+Attributes: fname, lname and salary
+Methods: get_email()
+The get_email() method should return  fname.lname@dcu.ie
+
+
+
+Q2. Write a class with the following properties: 
+
+Attributes: name, age, height, weight
+Methods: 
+get_age(): returns "<name> is <age> years old"
+get_height(): returns "<name> is <height> cm tall"
+get_weight(): returns "<name> weighs <weight> kg"
+
+
+Q3. Write a class with these attributes fname, lname and age.
+Create a function to take a list of the objects and sort them based on the given attribute.
+
+p1 = Class4('Barack', 'Obama', 40)
+p2 = Class4('Abraham', 'Lincoln', 21)
+p3 = Class4('Donald', 'Trump', 14)
+
+sort_class4([p1, p2, p3], 'fname') ➞ [p2, p1, p3]
+
+
+Q4. Create a class called Smoothie with the following properties:
+Attributes: ingredient
+Methods: 
+get_cost(): returns total cost of the ingredients used to make the smoothie.
+get_price(): returns the number from get_cost() + 2.5
+get_name(): returns the name of the smoothie as follows:
+
+If single ingredient is given then, "<ingredient> Smoothie"
+If multiple ingredient given then, "<ingredient_1> <ingredient_2> .... <ingredient_n> Fusion"
+
+Ingredient  Price
+Banana  0.50€
+Strawberries  1.50€
+Mango  2.50€
+Blueberries  1.00€
+Raspberries  1.00€
+Apple  1.75€
+Pineapple  3.50€
+
+drink = Smoothie(['Banana', 'Mango'])
+drink.get_cost() ➞ €3.00
+drink.get_price() ➞ €5.50
+drink.get_name() ➞ Banana Mango Fusion
+
+Q5. Write a class Pizza with two attributes order_number, ingredients.
+One should be able to order a pizza by giving a list of ingredients or simply the name.
+Note that order_number should be updated automatically 
+
+Name    Ingredients
+Margherita; Red tomatoes, White mozzarella, Green basil
+Serrano; Black olives, Red onion, Cooked picadillo
+Diavola; Mozzarella, Spicy sausage, Pomodorino tomatoes
+
+p1 = Pizza(['Black olives', 'Red onion', 'Meatballs'])
+p2 = Pizza.diavola()
+
+p1.order_number ➞ 1
+p2.ingredients ➞ ['Mozzarella', 'Spicy sausage', 'Pomodorino tomatoes']
+
+
+Q6. Write a class Employee that takes the full name as well as a set of none, one or more keywords.
+
+Note:
+The number of keywords is unknown.
+Full name must be provided for each object.
+Full name must be given in one string input.
+Full name must be given in one string input.
+
+tom = Employee('Tom Ford')
+john = Employee('John Travolta', nationality='American')
+jack = Employee('Jack Nicholson', nationality='American', age=84)
+
+jack.age ➞ 84
+tom.firstname ➞ 'Tom'
+john.lastname ➞ 'Travolta'

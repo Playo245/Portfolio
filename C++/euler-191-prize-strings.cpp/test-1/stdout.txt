@@ -1,0 +1,11 @@
+$ g++ -o euler-191-prize-strings euler-191-prize-strings.cpp
+$ ./euler-191-prize-strings 3
+19
+$ ./euler-191-prize-strings 7
+418
+$ ./euler-191-prize-strings 11
+7077
+$ ./euler-191-prize-strings twenty
+Invalid input: Please enter a valid day.
+$ ./euler-191-prize-strings
+Usage: ./euler-191-prize-strings <day>

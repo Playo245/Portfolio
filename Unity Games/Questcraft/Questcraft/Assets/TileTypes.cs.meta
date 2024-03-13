@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 96787adb225e4f745be1de12879cdb8f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grass: {instanceID: 0}
+  - dirt: {instanceID: 0}
+  - stone: {instanceID: 0}
+  - log: {instanceID: 0}
+  - leaf: {instanceID: 0}
+  - tallGrass: {instanceID: 0}
+  - coal: {instanceID: 0}
+  - iron: {instanceID: 0}
+  - gold: {instanceID: 0}
+  - diamond: {instanceID: 0}
+  executionOrder: 0
+  icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

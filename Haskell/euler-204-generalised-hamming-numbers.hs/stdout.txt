@@ -1,0 +1,12 @@
+$ runghc euler-204-generalised-hamming-numbers.hs 5 100000000
+1105
+$ runghc euler-204-generalised-hamming-numbers.hs 15 10000000
+8289
+$ runghc euler-204-generalised-hamming-numbers.hs 11 10000000
+4520
+$ runghc euler-204-generalised-hamming-numbers.hs 24 10000000
+28434
+$ runghc euler-204-generalised-hamming-numbers.hs 65 100000000
+445081
+$ runghc euler-204-generalised-hamming-numbers.hs 100 1000000000
+2944730

@@ -1,0 +1,9 @@
+$ g++ -o euler-216-the-primality euler-216-the-primality.cpp
+$ ./euler-216-the-primality 10000
+2202
+$ ./euler-216-the-primality 50000
+9175
+$ ./euler-216-the-primality 50million
+Error: <limit> must be integers.
+$ ./euler-216-the-primality
+Usage: ./euler-216-the-primality <limit>

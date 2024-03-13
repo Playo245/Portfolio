@@ -1,0 +1,16 @@
+Tree runtime = O(dp + 1) for depth
+Traversal algorithm requires time O(cp + 1)
+
+A more sophisticated compression function, which helps eliminate
+repeated patterns in a set of integer keys, is the
+Multiply-Add-and-Divide (or “MAD”) method. This method maps an
+integer i to:
+
+MAD = [(ai + b) mod p] mod N
+
+where N is the size of the bucket array, p is a prime number larger than
+N, and a and b are integers chosen at random from the interval
+[0, p − 1], with a > 0. This compression function is chosen in order to
+eliminate repeated patterns in the set of hash codes and get us closer
+to having a “good” hash function, that is, one such that the probability
+any two different keys collide is 1/N.

@@ -1,0 +1,12 @@
+$ go run euler-191-prize-strings.go 4
+43
+$ go run euler-191-prize-strings.go 10
+3536
+$ go run euler-191-prize-strings.go 13
+27820
+$ go run euler-191-prize-strings.go 20
+2947811
+$ go run euler-191-prize-strings.go 24
+40058421
+$ go run euler-191-prize-strings.go 30
+1918080160

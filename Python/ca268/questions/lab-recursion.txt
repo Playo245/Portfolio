@@ -1,0 +1,36 @@
+Lab-Recursion
+
+Q1. Write a function sum_q1() that takes an integer n as input and returns the sum of 0...n using recursion.
+
+sum_q1(6) ➞ 6 + 5 + 4 + 3 + 2 + 1 = 21
+
+
+Q2. Using recursion, write a script to reverse an integer.
+
+Example input-output: 123 ➞ 321
+
+
+Q3. Similar to Q2, write a script to reverse a string using recursion.
+
+Example input-output: hello ➞ olleh
+
+
+Q4. Write a script to inverse a list of numbers using recursion.
+
+Example input-output: [1, 2, 3, 4] ➞ [4, 3, 2, 1]
+
+
+Q5. Create a function that returns the product of two integers. This process of multiplication can be achieved via repetitive addition, thus, the process can be done recursively. 
+
+multiply(10, 2) ➞ 20
+multiply(-51, -4) ➞ 204
+multiply(3, 9) ➞ 27
+
+
+Q6. A pronic number (or otherwise called as heteromecic) is a number which is a product of two consecutive integers, that is, a number of the form n(n + 1). Create a function that determines whether a number is pronic or not.
+
+is_heteromecic(110) ➞ True
+# 10 * (10 + 1) = 10 * 11 = 110
+
+
+Q7. Write a function that returns the length of a string. Make your function recursive.

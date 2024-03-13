@@ -1,0 +1,3 @@
+$ g++ -o euler-99-largest-exponential euler-99-largest-exponential.cpp
+$ ./euler-99-largest-exponential numbers.txt
+Error occurred, couldn't convert to integers: 519432,52580d

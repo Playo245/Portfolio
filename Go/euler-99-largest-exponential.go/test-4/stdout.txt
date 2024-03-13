@@ -1,0 +1,2 @@
+$ go run euler-99-largest-exponential.go numbers.txt numbers-2.txt
+Usage: go run euler-99-largest-exponential.go <filename>

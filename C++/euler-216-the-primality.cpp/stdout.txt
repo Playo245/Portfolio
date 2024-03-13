@@ -1,0 +1,13 @@
+$ g++ -o euler-216-the-primality euler-216-the-primality.cpp
+$ ./euler-216-the-primality 1000
+303
+$ ./euler-216-the-primality 5000
+1193
+$ ./euler-216-the-primality 8000
+1801
+$ ./euler-216-the-primality 12000
+2566
+$ ./euler-216-the-primality 20000
+4036
+$ ./euler-216-the-primality 50000000
+5437849

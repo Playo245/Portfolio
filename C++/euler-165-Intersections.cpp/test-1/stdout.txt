@@ -1,0 +1,9 @@
+$ g++ -o euler-165-Intersections euler-165-Intersections.cpp
+$ ./euler-165-Intersections 367
+16274
+$ ./euler-165-Intersections 45two
+Error: Invalid input. Please enter a valid number
+$ ./euler-165-Intersections twofifty
+Error: Invalid input. Please enter a valid number
+$ ./euler-165-Intersections
+Usage: ./euler-165-Intersections <value_of_n>

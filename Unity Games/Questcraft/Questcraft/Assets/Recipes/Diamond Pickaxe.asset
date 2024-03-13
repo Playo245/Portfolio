@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11ff882de245d8488e2d8b5f8cc3d67, type: 3}
+  m_Name: Diamond Pickaxe
+  m_EditorClassIdentifier: 
+  inputItems:
+  - <item>k__BackingField: {fileID: 11400000, guid: 570b86576dba44c48aac23fea3ddc6e5, type: 2}
+    <quantity>k__BackingField: 2
+  - <item>k__BackingField: {fileID: 11400000, guid: 64195a502241b7b4fb3a97aabc232267, type: 2}
+    <quantity>k__BackingField: 3
+  outputItem:
+    <item>k__BackingField: {fileID: 11400000, guid: 8b7b8a533323c594e8bdaff821f9f943, type: 2}
+    <quantity>k__BackingField: 1

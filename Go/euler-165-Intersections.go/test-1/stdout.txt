@@ -1,0 +1,10 @@
+$ go run euler-165-Intersections.go 367
+16274
+$ go run euler-165-Intersections.go 45two
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "45two": invalid syntax
+$ go run euler-165-Intersections.go twofifty
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "twofifty": invalid syntax
+$ go run euler-165-Intersections.go
+Usage: go run euler-165-Intersections.go <value_of_n>

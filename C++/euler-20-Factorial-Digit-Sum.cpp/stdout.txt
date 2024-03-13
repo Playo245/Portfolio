@@ -1,0 +1,9 @@
+$ g++ -o euler-20-Factorial-Digit-Sum euler-20-Factorial-Digit-Sum.cpp
+$ ./euler-20-Factorial-Digit-Sum 5
+3
+$ ./euler-20-Factorial-Digit-Sum 45
+207
+$ ./euler-20-Factorial-Digit-Sum 93
+513
+$ ./euler-20-Factorial-Digit-Sum 100
+648

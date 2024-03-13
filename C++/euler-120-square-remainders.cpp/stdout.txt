@@ -1,0 +1,13 @@
+$ g++ -o euler-120-square-remainders euler-120-square-remainders.cpp
+$ ./euler-120-square-remainders 7 7
+42
+$ ./euler-120-square-remainders 4 11
+404
+$ ./euler-120-square-remainders 4 63
+82330
+$ ./euler-120-square-remainders 6 99
+320916
+$ ./euler-120-square-remainders 2 298
+8798750
+$ ./euler-120-square-remainders 3 1000
+333082500

@@ -1,0 +1,12 @@
+$ runghc euler-120-square-remainders.hs 2 9
+222
+$ runghc euler-120-square-remainders.hs 16 56
+56644
+$ runghc euler-120-square-remainders.hs 3two 98
+Error: Invalid first input.
+$ runghc euler-120-square-remainders.hs 53 4two3
+Error: Invalid second input.
+$ runghc euler-120-square-remainders.hs 62
+Usage: runghc euler-120-square-remainders.hs <first> <last>
+$ runghc euler-120-square-remainders.hs
+Usage: runghc euler-120-square-remainders.hs <first> <last>

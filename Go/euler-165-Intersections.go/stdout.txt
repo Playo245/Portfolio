@@ -1,0 +1,8 @@
+$ go run euler-165-Intersections.go 5
+1
+$ go run euler-165-Intersections.go 50
+268
+$ go run euler-165-Intersections.go 500
+29496
+$ go run euler-165-Intersections.go 5000
+2868868

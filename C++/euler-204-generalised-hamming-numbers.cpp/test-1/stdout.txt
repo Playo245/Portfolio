@@ -1,0 +1,9 @@
+$ g++ -o euler-204-generalised-hamming-numbers euler-204-generalised-hamming-numbers.cpp
+$ ./euler-204-generalised-hamming-numbers 5 10000000d
+Error: Both <type> and <limit> must be integers.
+$ ./euler-204-generalised-hamming-numbers 5two 100000000
+Error: Both <type> and <limit> must be integers.
+$ ./euler-204-generalised-hamming-numbers 44
+Usage: ./euler-204-generalised-hamming-numbers <type> <limit>
+$ ./euler-204-generalised-hamming-numbers
+Usage: ./euler-204-generalised-hamming-numbers <type> <limit>

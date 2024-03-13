@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11ff882de245d8488e2d8b5f8cc3d67, type: 3}
+  m_Name: Grey Brick Wall
+  m_EditorClassIdentifier: 
+  inputItems:
+  - <item>k__BackingField: {fileID: 11400000, guid: 2b26983369e680e4fa2ef890f0ce63c0, type: 2}
+    <quantity>k__BackingField: 1
+  outputItem:
+    <item>k__BackingField: {fileID: 11400000, guid: aed49fb3628cfa545b28210d3b11fa58, type: 2}
+    <quantity>k__BackingField: 3

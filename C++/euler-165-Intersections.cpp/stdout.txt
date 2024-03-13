@@ -1,0 +1,9 @@
+$ g++ -o euler-165-Intersections euler-165-Intersections.cpp
+$ ./euler-165-Intersections 5
+1
+$ ./euler-165-Intersections 50
+268
+$ ./euler-165-Intersections 500
+29496
+$ ./euler-165-Intersections 5000
+2868868

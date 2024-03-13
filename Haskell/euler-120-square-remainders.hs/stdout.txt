@@ -1,0 +1,12 @@
+$ runghc euler-120-square-remainders.hs 7 7
+42
+$ runghc euler-120-square-remainders.hs 4 11
+404
+$ runghc euler-120-square-remainders.hs 4 63
+82330
+$ runghc euler-120-square-remainders.hs 6 99
+320916
+$ runghc euler-120-square-remainders.hs 2 298
+8798750
+$ runghc euler-120-square-remainders.hs 3 1000
+333082500

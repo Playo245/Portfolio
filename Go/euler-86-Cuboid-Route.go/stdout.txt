@@ -1,0 +1,12 @@
+$ go run euler-86-Cuboid-Route.go 10
+8
+$ go run euler-86-Cuboid-Route.go 100
+24
+$ go run euler-86-Cuboid-Route.go 1000
+72
+$ go run euler-86-Cuboid-Route.go 10000
+210
+$ go run euler-86-Cuboid-Route.go 100000
+616
+$ go run euler-86-Cuboid-Route.go 1000000
+1818

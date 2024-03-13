@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 7
+
+****
+Euler problem 7: https://projecteuler.net/problem=7[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Task
+****
+By listing the first six prime numbers: 
+2,3,5,7,11, and 13, we can see that the 6th prime is 13
+
+Write a Go script named `euler-7-10001st-Prime.go` which calculates the 10001st prime number.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+
+
+****
+
+.Example invocation
+----
+$ go run euler-7-1000st-Prime.go 1
+----
+
+.Example standard output
+----
+2
+----
+
+.Explanation
+****
+2 is the first prime number
+****

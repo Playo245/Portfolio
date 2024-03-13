@@ -1,0 +1,8 @@
+$ go run euler-20-Factorial-Digit-Sum.go 5
+3
+$ go run euler-20-Factorial-Digit-Sum.go 45
+207
+$ go run euler-20-Factorial-Digit-Sum.go 93
+513
+$ go run euler-20-Factorial-Digit-Sum.go 100
+648

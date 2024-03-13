@@ -1,0 +1,46 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 204
+
+****
+Euler problem 204: https://projecteuler.net/problem=204[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Haskell
+
+.Task
+****
+Assume there are two command-line arguments. The first argument represents $n$ as the type of Hamming number, and the second argument represents $s$ as the limit that the hamming number cannot exceed.
+
+A Hamming number is a positive number that has no prime factor larger than 5.
+
+For example, there are `1105` Hamming numbers which are type `5` that do not exceed `10^8 == 100000000`.
+
+We will call a positive number a generalised Hamming number of type $n$, if it has no prime factor larger than $s$.
+Hence the Hamming numbers are the generalised Hamming numbers of type `5`.
+
+Write a Haskell script named `euler-204-hamming-numbers.hs` to calculate how many Hamming numbers are there less than or equal to $s$ of any given type $n$.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ runghc euler-204-hamming-numbers.hs 5 100000000
+----
+
+.Example standard output
+----
+1105
+----
+
+.Explanation
+****
+There are 1105 Hamming numbers less than or equal to 100000000 of type 5.
+****

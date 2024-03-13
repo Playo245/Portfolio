@@ -1,0 +1,3 @@
+$ g++ -o euler-99-largest-exponential euler-99-largest-exponential.cpp
+$ ./euler-99-largest-exponential
+Usage: ./euler-99-largest-exponential <filename>

@@ -1,0 +1,9 @@
+$ g++ -o euler-7-10001st-Prime euler-7-10001st-Prime.cpp
+$ ./euler-7-10001st-Prime 1
+2
+$ ./euler-7-10001st-Prime 67
+331
+$ ./euler-7-10001st-Prime 3478
+32411
+$ ./euler-7-10001st-Prime 10001
+104743

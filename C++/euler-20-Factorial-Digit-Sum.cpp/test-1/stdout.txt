@@ -1,0 +1,7 @@
+$ g++ -o euler-20-Factorial-Digit-Sum euler-20-Factorial-Digit-Sum.cpp
+$ ./euler-20-Factorial-Digit-Sum 120
+783
+$ ./euler-20-Factorial-Digit-Sum five
+Error: Invalid input. Please enter a valid number
+$ ./euler-20-Factorial-Digit-Sum
+Usage: ./euler-20-Factorial-Digit-Sum <value_of_n>

@@ -1,0 +1,8 @@
+$ runghc euler-204-generalised-hamming-numbers.hs 5 10000000d
+Error: Invalid second input.
+$ runghc euler-204-generalised-hamming-numbers.hs 5two 100000000
+Error: Invalid first input.
+$ runghc euler-204-generalised-hamming-numbers.hs 44
+Usage: runghc euler-204-generalised-hamming-numbers.hs <type> <limit>
+$ runghc euler-204-generalised-hamming-numbers.hs
+Usage: runghc euler-204-generalised-hamming-numbers.hs <type> <limit>

@@ -1,0 +1,9 @@
+$ go run euler-216-the-primality.go 10000
+2202
+$ go run euler-216-the-primality.go 50000
+9175
+$ go run euler-216-the-primality.go 50million
+Invalid input: Please enter a valid limit.
+Error message: strconv.Atoi: parsing "50million": invalid syntax
+$ go run euler-216-the-primality.go
+Usage: go run euler-216-the-primality.go <limit>

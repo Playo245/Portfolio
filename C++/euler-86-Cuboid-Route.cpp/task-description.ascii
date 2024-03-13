@@ -1,0 +1,48 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 86
+
+****
+Euler problem 86: https://projecteuler.net/problem=86[].
+****
+
+// //////////////////////////////////////////////////////////////
+== C++
+
+.Task
+****
+A spider, S, sits in one corner of a cuboid room, measuring 6 by 5 by 3, and a fly, F, sits in the opposite corner. By travelling on the surfaces of the room the shortest "straight line" distance from S to F is 10 and the path is shown on the diagram.
+
+However, there are up to three “shortest” path candidates for any given cuboid and the shortest route is not always integer.
+
+By considering all cuboid rooms with integer dimensions, up to a maximum size of M by M by M, there are exactly 2060 cuboids for which the shortest distance is integer when M=100, and this is the least value of M for which the number of solutions first exceeds two thousand; the number of solutions is 1975 when M=99.
+
+
+Write a C++ script named `euler-86-Cuboid-Route.cpp` which finds the least value of M such that the number of solutions first exceeds one million.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ g++ -o euler-86-Cuboid-Route euler-86-Cuboid-Route.cpp
+
+$ ./euler-86-Cuboid-Route 76
+
+
+----
+
+.Example standard output
+----
+331
+----
+
+.Explanation
+****
+331 is the least value of M such that the number of solutions first exceeds 76
+****

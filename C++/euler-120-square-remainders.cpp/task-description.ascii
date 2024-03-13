@@ -1,0 +1,67 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 120
+
+****
+Euler problem 120: https://projecteuler.net/problem=120[].
+****
+
+// //////////////////////////////////////////////////////////////
+== C++
+
+.Task
+****
+Assume there are two command-line arguments, $x$ and $y$ which are both positive integers that will 
+represent the range: $x \le a \le y$. $a$ represents the value within that specific range.
+
+Now Let $r$ be the remainder when $(a - 1)^n + (a + 1)^n$ is divided by $a^2$ 
+
+For example, you want to find the sum of the maximum remainders($r$) for the range $7 - 7$. 
+Then $a = 7$ since $7$ is the only number within that range. Lets assume that $n = 3$, 
+then $r = 42: (6^3) + (8^3) = 728 mod 7^3 == 42$. And as $n$ varies, so too will $r$, 
+but for $a = 7$ it turns out that $r max = 42$. 
+
+Write a C++ script named `euler-120-square-remainders.cpp` which writes the sum of all the max 
+remainder $a$ within the range of $x$ and $y$.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$$ g++ -o euler-120-square-remainders euler-120-square-remainders.cpp
+$ ./euler-120-square-remainders 7 7
+----
+
+.Example standard output
+----
+42
+----
+
+.Explanation
+****
+The sum of max remainders here is $42$ as the is only one number within the range $7 - 7$.
+****
+
+.Example invocation
+----
+$ g++ -o euler-120-square-remainders euler-120-square-remainders.cpp
+$ ./euler-120-square-remainders 4 11
+----
+
+.Example standard output
+----
+404
+----
+
+.Explanation
+****
+The sum of max remainders here is $404$ as the is more than one number within the range of $4 - 11$. 
+Therefore, some kind of sequence has been implemented to go through all values of $a$ between 
+$x$ and $y$, To find the maximum $r$ for each value $a$.
+****

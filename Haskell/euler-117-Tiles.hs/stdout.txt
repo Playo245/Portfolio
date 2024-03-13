@@ -1,0 +1,6 @@
+$ runghc euler-117-Tiles.hs 5
+15
+$ runghc euler-117-Tiles.hs 10
+401
+$ runghc euler-117-Tiles.hs 50
+100808458960497

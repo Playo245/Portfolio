@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main(int argc, char *argv[]){
+    int first = atoi(argv[1]);
+    int second = atoi(argv[2]);
+    int length = (first * second) + 3;
+    int third = atoi(argv[length]);
+    int forth = atoi(argv[length + 1]);
+    int matrix1[first][second];
+    int matrix2[third][forth];
+    int index = 3;
+    int nindex = length + 2;
+    int i, j;
+    for(i = 0; i < first; ++i){
+        for(j = 0; j < second; ++j){
+            matrix1[i][j] = atoi(argv[index]);
+            ++index;
+        }
+    }
+    for(i = 0; i < third; ++i){
+        for(j = 0; j < forth; ++j){
+            matrix2[i][j] = atoi(argv[nindex]);
+            ++nindex;
+        }
+    }
+    for(i = 0; i < first; ++i){
+        
+    }
+    for(i = 0; i < first; ++i){
+        for(j = 0; j < second; ++j){
+            matrix1[i][j] = atoi(argv[index]);
+            ++index;
+        }
+    }
+    return 0;
+}

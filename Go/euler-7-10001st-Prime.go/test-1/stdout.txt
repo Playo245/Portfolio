@@ -1,0 +1,10 @@
+$ go run euler-7-10001st-Prime.go 10002
+104759
+$ go run euler-7-10001st-Prime.go 6seven
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "6seven": invalid syntax
+$ go run euler-7-10001st-Prime.go eight
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "eight": invalid syntax
+$ go run euler-7-10001st-Prime.go
+Usage: go run euler-7-10001st-Prime.go <value_of_n>

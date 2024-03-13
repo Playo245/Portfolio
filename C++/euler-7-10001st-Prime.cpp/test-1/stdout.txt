@@ -1,0 +1,9 @@
+$ g++ -o euler-7-10001st-Prime euler-7-10001st-Prime.cpp
+$ ./euler-7-10001st-Prime 10002
+104759
+$ ./euler-7-10001st-Prime 6seven
+Error: Invalid input. Please enter a valid integer.
+$ ./euler-7-10001st-Prime eight
+Error: Invalid input. Please enter a valid integer.
+$ ./euler-7-10001st-Prime
+Usage: ./euler-7-10001st-Prime <value_of_n>

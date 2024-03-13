@@ -1,0 +1,2 @@
+$ swipl -s euler-99-largest-exponential.pl --
+Usage: swipl -s euler-99-largest-exponential.pl <filename>

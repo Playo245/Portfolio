@@ -1,0 +1,4 @@
+$ swipl -s euler-20-Factorial-Digit-Sum.pl -- 109
+657
+$ swipl -s euler-20-Factorial-Digit-Sum.pl -- 130
+864

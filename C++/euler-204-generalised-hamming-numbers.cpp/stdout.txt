@@ -1,0 +1,13 @@
+$ g++ -o euler-204-generalised-hamming-numbers euler-204-generalised-hamming-numbers.cpp
+$ ./euler-204-generalised-hamming-numbers 5 100000000
+1105
+$ ./euler-204-generalised-hamming-numbers 15 10000000
+8289
+$ ./euler-204-generalised-hamming-numbers 11 10000000
+4520
+$ ./euler-204-generalised-hamming-numbers 24 10000000
+28434
+$ ./euler-204-generalised-hamming-numbers 65 100000000
+445081
+$ ./euler-204-generalised-hamming-numbers 100 1000000000
+2944730

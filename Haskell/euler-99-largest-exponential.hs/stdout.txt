@@ -1,0 +1,2 @@
+$ runghc euler-99-largest-exponential.hs numbers.txt
+709

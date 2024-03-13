@@ -1,0 +1,12 @@
+$ go run euler-204-generalised-hamming-numbers.go 5 100000000
+1105
+$ go run euler-204-generalised-hamming-numbers.go 15 10000000
+8289
+$ go run euler-204-generalised-hamming-numbers.go 11 10000000
+4520
+$ go run euler-204-generalised-hamming-numbers.go 24 10000000
+28434
+$ go run euler-204-generalised-hamming-numbers.go 65 100000000
+445081
+$ go run euler-204-generalised-hamming-numbers.go 100 1000000000
+2944730

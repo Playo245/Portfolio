@@ -1,0 +1,9 @@
+$ g++ -o euler-109-Darts euler-109-Darts.cpp
+$ ./euler-109-Darts 150
+42295
+$ ./euler-109-Darts two3
+Error: Invalid input. Please enter a valid number
+$ ./euler-109-Darts ten
+Error: Invalid input. Please enter a valid number
+$ ./euler-109-Darts
+Usage: ./euler-109-Darts <value_of_n>

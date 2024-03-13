@@ -1,0 +1,44 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 117
+
+****
+Euler problem 117: https://projecteuler.net/problem=109[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Task
+****
+Using a combination of grey square tiles and oblong tiles chosen from: red tiles (measuring two units), green tiles (measuring three units), and blue tiles (measuring four units), it is possible to tile a row measuring five units in length in exactly fifteen different ways.
+
+png117.png
+How many ways can a row measuring fifty units in length be tiled?
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ runghc euler-117-Tiles.hs 5
+
+----
+
+.Example standard output
+----
+15
+----
+
+.Explanation
+****
+there are 15 ways a row measuring 5 units in length can be tiled?
+****
+
+
+

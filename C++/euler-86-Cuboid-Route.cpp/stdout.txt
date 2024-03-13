@@ -1,0 +1,13 @@
+$ g++ -o euler-86-Cuboid-Route euler-86-Cuboid-Route.cpp
+$ ./euler-86-Cuboid-Route 10
+8
+$ ./euler-86-Cuboid-Route 100
+24
+$ ./euler-86-Cuboid-Route 1000
+72
+$ ./euler-86-Cuboid-Route 10000
+210
+$ ./euler-86-Cuboid-Route 100000
+616
+$ ./euler-86-Cuboid-Route 1000000
+1818

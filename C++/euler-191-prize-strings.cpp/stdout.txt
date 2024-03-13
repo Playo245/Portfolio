@@ -1,0 +1,13 @@
+$ g++ -o euler-191-prize-strings euler-191-prize-strings.cpp
+$ ./euler-191-prize-strings 4
+43
+$ ./euler-191-prize-strings 10
+3536
+$ ./euler-191-prize-strings 13
+27820
+$ ./euler-191-prize-strings 20
+2947811
+$ ./euler-191-prize-strings 24
+40058421
+$ ./euler-191-prize-strings 30
+1918080160

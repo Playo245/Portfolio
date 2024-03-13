@@ -1,0 +1,10 @@
+$ go run euler-109-Darts.go 150
+42295
+$ go run euler-109-Darts.go two3
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "two3": invalid syntax
+$ go run euler-109-Darts.go ten
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "ten": invalid syntax
+$ go run euler-109-Darts.go
+Usage: go run euler-109-Darts.go <value_of_n>

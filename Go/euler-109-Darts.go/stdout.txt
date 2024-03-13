@@ -1,0 +1,8 @@
+$ go run euler-109-Darts.go 1
+0
+$ go run euler-109-Darts.go 10
+78
+$ go run euler-109-Darts.go 50
+12577
+$ go run euler-109-Darts.go 100
+38182

@@ -1,0 +1,10 @@
+$ go run euler-7-10001st-Prime.go 1
+2
+$ go run euler-7-10001st-Prime.go 67
+331
+$ go run euler-7-10001st-Prime.go 149
+859
+$ go run euler-7-10001st-Prime.go 3478
+32411
+$ go run euler-7-10001st-Prime.go 10001
+104743

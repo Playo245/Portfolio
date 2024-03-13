@@ -1,0 +1,12 @@
+$ swipl -s euler-120-square-remainders.pl -- 3 5
+34
+$ swipl -s euler-120-square-remainders.pl -- 7 11
+352
+$ swipl -s euler-120-square-remainders.pl -- 2 43
+26028
+$ swipl -s euler-120-square-remainders.pl -- 9 78
+156450
+$ swipl -s euler-120-square-remainders.pl -- 6 223
+3683982
+$ swipl -s euler-120-square-remainders.pl -- 7 785
+161091166

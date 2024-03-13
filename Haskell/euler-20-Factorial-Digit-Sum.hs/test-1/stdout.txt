@@ -1,0 +1,6 @@
+$ runghc euler-20-Factorial-Digit-Sum.hs 72
+432
+$ runghc euler-20-Factorial-Digit-Sum.hs 45
+207
+$ runghc euler-20-Factorial-Digit-Sum.hs
+Usage: runghc euler-20-Factorial-Digit-Sum <integer>

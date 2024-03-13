@@ -1,0 +1,46 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 216
+
+****
+Euler problem 216: https://projecteuler.net/problem=216[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Task
+****
+Assume there is one command-line argument, Which represents the limit.
+
+Consider numbers $t(n)$ of the form $t(n) = 2n^n - 1$ with $n > 1$.
+
+For example, the first such numbers are $6, 17, 31, 49, 71, 97, 127$ and $161$. 
+It turns out that only $49 = 7*7$ and $161 = 7*23$ are not prime. 
+
+Lets say for $n <= 10000$ there are $2202$ numbers $t(n)$ that are prime
+
+Write a Go script named `euler-216-the-primality.go` that finds the prime numbers of $t(n)$, Where $n$ is less than or equal to $50000000$.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ go run euler-216-the-primality.go 10000
+----
+
+.Example standard output
+----
+2202
+----
+
+.Explanation
+****
+Calculated for every $t(n)$ and found which ones are primes within the range of $10000$. At the end, it outputs the sum of the primes found.
+****

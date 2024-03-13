@@ -1,0 +1,10 @@
+$ go run euler-20-Factorial-Digit-Sum.go 120
+783
+$ go run euler-20-Factorial-Digit-Sum.go 9seven
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "9seven": invalid syntax
+$ go run euler-20-Factorial-Digit-Sum.go five
+Invalid input: Please enter a valid number.
+Error message: strconv.Atoi: parsing "five": invalid syntax
+$ go run euler-20-Factorial-Digit-Sum.go
+Usage: go run euler-20-Factorial-Digit-Sum.go <value_of_n>

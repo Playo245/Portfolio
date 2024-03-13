@@ -1,0 +1,12 @@
+$ go run euler-216-the-primality.go 1000
+303
+$ go run euler-216-the-primality.go 5000
+1193
+$ go run euler-216-the-primality.go 8000
+1801
+$ go run euler-216-the-primality.go 12000
+2566
+$ go run euler-216-the-primality.go 20000
+4036
+$ go run euler-216-the-primality.go 50000000
+5437849
